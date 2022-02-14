@@ -1,0 +1,22 @@
+Breakpoint 1, main () at p3final.c:26
+26    s=intput_n();
+(gdb) s
+intput_n () at p3final.c:3
+3   {
+(gdb) n
+5     printf("enter the value\n");
+(gdb) n
+enter the value
+6     scanf("%d",&x);
+(gdb) n
+n
+7     return x;
+(gdb) n
+8   }
+(gdb) n
+main () at p3final.c:27
+27    i=sum_n(s);
+(gdb) n
+28    output(s,i);
+(gdb) n
+29    return 0;
