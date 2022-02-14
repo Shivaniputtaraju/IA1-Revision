@@ -1,0 +1,28 @@
+Breakpoint 1, main () at p2final.c:25
+25    a=input();
+(gdb) s
+input () at p2final.c:3
+3   {
+(gdb) n
+5     printf("enter the number\n");
+(gdb) n
+enter the number
+6     scanf("%d",&a);
+(gdb) n
+n
+7     return a;
+(gdb) n
+8   }
+(gdb) n
+main () at p2final.c:26
+26    b=input();
+(gdb) n
+enter the number
+27    c=input();
+(gdb) n
+enter the number
+28    largest=cmp(a,b,c);
+(gdb) n
+29    output(a,b,c,largest);
+(gdb) n
+30    return 0;
