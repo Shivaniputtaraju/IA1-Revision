@@ -1,0 +1,18 @@
+Breakpoint 1, main () at p7final.c:26
+26    printf("enter the first complex number a+bi in the form 'a b'\n");
+(gdb) n
+enter the first complex number a+bi in the form 'a b'
+27    a=input_chellox();
+(gdb) n
+n
+28    printf("enter the first complex number a+bi in the form 'a b'\n");
+(gdb) n
+enter the first complex number a+bi in the form 'a b'
+29    b=input_chellox();
+(gdb) n
+30    c=add_cmplx(a,b);
+(gdb) n
+31    ouput(a,b,c);
+(gdb) n
+(1456895760 + 32766i)+(1456895760 + 32766i) is (-1381175776 + 65532i)
+32    return 0;
