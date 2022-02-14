@@ -29,4 +29,5 @@ int main()
   b=input_chellox();
   c=add_cmplx(a,b);
   ouput(a,b,c);
+  return 0;
 }
