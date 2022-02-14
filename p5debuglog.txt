@@ -1,0 +1,23 @@
+Breakpoint 1, main () at p5final.c:28
+28    n=input();
+(gdb) s
+input () at p5final.c:3
+3   {
+(gdb) n
+4     printf("enter the number:\n");
+(gdb) n
+enter the number:
+6     scanf("%f",&k);
+(gdb) n
+n
+7     return k;
+(gdb) n
+8   }
+(gdb) n
+main () at p5final.c:29
+29    sqrt=my_sqrt(n);
+(gdb) n
+30    output(n,sqrt);
+(gdb) n
+square root of 0.000000 is 0.000000
+31    return 0;
