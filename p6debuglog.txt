@@ -1,0 +1,15 @@
+Breakpoint 1, main () at p6final.c:59
+59  {
+(gdb) s
+62    input_two_string(a,b);
+(gdb) n
+enter any word:
+n
+enter any word:
+n
+63    ans=strcmp(a,b);
+(gdb) n
+64    output(a,b,ans);
+(gdb) n
+n is equal to n
+65    return 0;
