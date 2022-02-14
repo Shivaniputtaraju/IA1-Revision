@@ -1,0 +1,13 @@
+Breakpoint 1, main () at p1final.c:18
+18  {
+(gdb) s
+20    input(&a,&b);
+(gdb) n
+enter the value of a
+n
+enter the value of b
+21    add(a,b,&sum);
+(gdb) n
+22    output(a,b,sum);
+(gdb) n
+23    return 0;
