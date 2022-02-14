@@ -1,0 +1,19 @@
+Breakpoint 1, main () at p4final.c:38
+38  {
+(gdb) s
+40    n=input_array_size();
+(gdb) n
+enter array size:
+n
+41    int a[n];
+(gdb) n
+42    input_array(n,a);
+(gdb) n
+enter the elements of the array:
+43    sum=sum_n_array(n,a);
+(gdb) n
+44    output(n,a,sum);
+(gdb) n
+the sum of the array elements:
+21943 is 0
+45    return 0;
